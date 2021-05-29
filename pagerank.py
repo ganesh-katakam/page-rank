@@ -15,7 +15,7 @@ def updatedAdjacencyMatrix(adjacency_matrix,nodes,row_sum_vector):
     temp = []
     for j in range(nodes):
       temp.append(round(adjacency_matrix[i][j]/row_sum_vector[i],2))
-    updated_matrix.append(mat)
+    updated_matrix.append(temp)
   return updated_matrix
 
 #Function to retrieve transpose of a given matrix
